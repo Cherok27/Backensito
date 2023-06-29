@@ -6,7 +6,7 @@ const app = express();
 const cors = require("cors");
 app.use(
   cors({
-    origin: "https://frontend-2228.onrender.com",
+    origin: "http:/localhost:5173",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,

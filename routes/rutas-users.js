@@ -132,7 +132,7 @@ router.post("/login", async (req, res, next) => {
         userId: usuarioExiste.id,
         email: usuarioExiste.email,
       },
-      "pene",
+      "1234",
       {
         expiresIn: "1h",
       }
